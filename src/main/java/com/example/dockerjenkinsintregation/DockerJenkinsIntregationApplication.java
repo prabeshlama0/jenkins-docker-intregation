@@ -11,7 +11,7 @@ public class DockerJenkinsIntregationApplication {
 
 	@GetMapping("/message")
 	public String getMessage(){
-		return "I am learning the jenkins-docker integration";
+		return "I am learning the jenkins-docker integration \n Welcome to git, jenkins and docker intregation";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DockerJenkinsIntregationApplication.class, args);
